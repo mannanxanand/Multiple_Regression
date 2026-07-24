@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-24T02:50:13+00:00",
+  "_captured_run_id": "r_9ad09f2c17f440d0a8f0af278bc6534f",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote WORK.STOCKS (100 rows, 53 columns).",
+    "NOTE: PROC CORR data=STOCKS",
+    "NOTE: PROC CORR ODS Graphics generated."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

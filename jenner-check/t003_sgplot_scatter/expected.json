@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-24T02:50:13+00:00",
+  "_captured_run_id": "r_a62e671bbf5c47d5a3a3f22f0cad0f0e",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote WORK.STOCKS (100 rows, 53 columns).",
+    "NOTE: PROC SGPLOT data=STOCKS",
+    "NOTE: PROC SGPLOT output written to: ./ods_output/sgplot.svg"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

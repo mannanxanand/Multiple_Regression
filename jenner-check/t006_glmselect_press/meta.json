@@ -1,0 +1,7 @@
+{
+  "bundle": "t006_glmselect_press",
+  "source_file": "ABNB.sas",
+  "source_blob_sha": "7df2770567073ee7d797e2ba010fd0eb4518f5d0",
+  "source_commit": "b51c972156d4cd9b8f4e6a39841859e6b1a19040",
+  "notes": "PROC GLMSELECT selection=stepwise(choose=press). Self-contained bundle: the ABNB target + the 9 candidate tickers this model uses (AMZN EBAY CZR DECK DRI LOW RL SBUX TSLA) are embedded inline from Stock Selection.xlsx (upstream imports the full 53-column panel from an external SAS-Studio XLSX path). [ABNB.sas lines 86-90 (PROC GLMSELECT choose=press)]"
+}
