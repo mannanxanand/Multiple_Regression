@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_corr_target",
+  "source_file": "ABNB.sas",
+  "source_blob_sha": "7df2770567073ee7d797e2ba010fd0eb4518f5d0",
+  "source_commit": "b51c972156d4cd9b8f4e6a39841859e6b1a19040",
+  "notes": "PROC CORR with VAR (all 52 tickers) WITH ABNB; data embedded inline from Stock Selection.xlsx. [ABNB.sas lines 26-29 (PROC CORR)]"
+}

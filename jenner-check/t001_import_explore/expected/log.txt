@@ -1,0 +1,16 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA WORK.STOCKS
+
+NOTE: Processing inline DATALINES (100 lines)
+
+NOTE: Read 100 rows from DATALINES.
+NOTE: Wrote WORK.STOCKS (100 rows, 53 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC CONTENTS data=WORK.STOCKS
+
+NOTE: PROC CONTENTS completed: 100 observations, 53 variables
+NOTE: PROC UNIVARIATE
+NOTE: PROC MEANS
+NOTE: PROC MEANS statement used.

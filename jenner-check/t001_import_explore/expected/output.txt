@@ -1,0 +1,3201 @@
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Data Set Name: WORK.STOCKS
+Observations:  100
+Variables:     53
+
+Variables (in alphabetical order):
+
+  #  Variable  Type    Len  Format  Label
+---  --------  ----  -----  ------  -----
+  1  ABNB       Num      8          
+  2  AMZN       Num      8          
+  3  APTV       Num      8          
+  4  AZO        Num      8          
+  5  BBWI       Num      8          
+  6  BBY        Num      8          
+  7  BKNG       Num      8          
+  8  BWA        Num      8          
+  9  CCL        Num      8          
+ 10  CMG        Num      8          
+ 11  CZR        Num      8          
+ 12  Date       Num      8          
+ 13  DECK       Num      8          
+ 14  DHI        Num      8          
+ 15  DPZ        Num      8          
+ 16  DRI        Num      8          
+ 17  EBAY       Num      8          
+ 18  ETSY       Num      8          
+ 19  EXPE       Num      8          
+ 20  F          Num      8          
+ 21  GM         Num      8          
+ 22  GPC        Num      8          
+ 23  GRMN       Num      8          
+ 24  HAS        Num      8          
+ 25  HD         Num      8          
+ 26  HLT        Num      8          
+ 27  KMX        Num      8          
+ 28  LEN        Num      8          
+ 29  LKQ        Num      8          
+ 30  LOW        Num      8          
+ 31  LULU       Num      8          
+ 32  LVS        Num      8          
+ 33  MAR        Num      8          
+ 34  MCD        Num      8          
+ 35  MGM        Num      8          
+ 36  MHK        Num      8          
+ 37  NCLH       Num      8          
+ 38  NKE        Num      8          
+ 39  NVR        Num      8          
+ 40  ORLY       Num      8          
+ 41  PHM        Num      8          
+ 42  POOL       Num      8          
+ 43  RCL        Num      8          
+ 44  RL         Num      8          
+ 45  ROST       Num      8          
+ 46  SBUX       Num      8          
+ 47  TJX        Num      8          
+ 48  TPR        Num      8          
+ 49  TSCO       Num      8          
+ 50  TSLA       Num      8          
+ 51  ULTA       Num      8          
+ 52  WYNN       Num      8          
+ 53  YUM        Num      8          
+
+-------------------------------------------------------------------------------
+
+                                                The UNIVARIATE Procedure
+                                                    Variable:  ABNB
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                      125.096650    Sum Observations        12509.665000
+Std Deviation              12.976384    Variance                  168.386550
+Skewness                    0.432600    Kurtosis                   -0.728743
+Uncorrected SS        1581587.452575    Corrected SS            16670.268453
+Coeff Variation            10.373087    Std Error Mean              1.297638
+
+          Basic Statistical Measures           
+
+Location              Variability              
+--------  ----------  -------------  ----------
+Mean      125.096650  Std Deviation   12.976384
+Median    124.725000  Variance       168.386550
+Mode      115.500000  Range           48.910000
+
+     NOTE: The mode displayed is the smallest of 2 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min      104.420000
+1%          104.847500
+5%          106.015000
+10%         109.010000
+25% Q1      115.295000
+50% Median  124.725000
+75% Q3      132.795000
+90%         145.447500
+95%         148.710000
+99%         152.760000
+100% Max    153.330000
+
+           Extreme Observations           
+
+Lowest                Highest             
+--------  ----------  --------  ----------
+Value     104.420000  Value     148.770000
+Value     105.275000  Value     148.910000
+Value     105.410000  Value     150.170000
+Value     105.710000  Value     152.190000
+Value     105.780000  Value     153.330000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         96.403317683         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                    Variable:  AMZN
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                      121.386700    Sum Observations        12138.670000
+Std Deviation              12.524505    Variance                  156.863228
+Skewness                   -0.372202    Kurtosis                   -1.241891
+Uncorrected SS        1489002.553300    Corrected SS            15529.459611
+Coeff Variation            10.317856    Std Error Mean              1.252451
+
+          Basic Statistical Measures           
+
+Location              Variability              
+--------  ----------  -------------  ----------
+Mean      121.386700  Std Deviation   12.524505
+Median    126.100000  Variance       156.863228
+Mode      124.250000  Range           44.390000
+
+     NOTE: The mode displayed is the smallest of 2 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min       97.830000
+1%           98.875000
+5%          102.115000
+10%         102.540000
+25% Q1      108.390000
+50% Median  126.100000
+75% Q3      130.370000
+90%         135.215000
+95%         138.485000
+99%         141.395000
+100% Max    142.220000
+
+           Extreme Observations           
+
+Lowest                Highest             
+--------  ----------  --------  ----------
+Value      97.830000  Value     138.560000
+Value      99.920000  Value     139.570000
+Value     101.100000  Value     139.940000
+Value     102.050000  Value     140.570000
+Value     102.060000  Value     142.220000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         96.919358392         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                    Variable:  APTV
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                      101.322000    Sum Observations        10132.200000
+Std Deviation               6.366952    Variance                   40.538079
+Skewness                   -0.124120    Kurtosis                   -1.125370
+Uncorrected SS        1030628.038200    Corrected SS             4013.269800
+Coeff Variation             6.283879    Std Error Mean              0.636695
+
+          Basic Statistical Measures          
+
+Location              Variability             
+--------  ----------  -------------  ---------
+Mean      101.322000  Std Deviation   6.366952
+Median    101.360000  Variance       40.538079
+Mode       97.400000  Range          24.320000
+
+     NOTE: The mode displayed is the smallest of 4 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min       88.080000
+1%           88.895000
+5%           91.065000
+10%          92.585000
+25% Q1       95.970000
+50% Median  101.360000
+75% Q3      107.110000
+90%         109.490000
+95%         110.385000
+99%         112.385000
+100% Max    112.400000
+
+          Extreme Observations           
+
+Lowest               Highest             
+--------  ---------  --------  ----------
+Value     88.080000  Value     110.390000
+Value     89.710000  Value     110.490000
+Value     90.210000  Value     111.010000
+Value     90.500000  Value     112.370000
+Value     90.900000  Value     112.400000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         159.1373686         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  AZO
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                     2526.225694    Sum Observations       252622.569400
+Std Deviation             107.613880    Variance                11580.747124
+Skewness                    0.399098    Kurtosis                   -0.852976
+Uncorrected SS        639328119.667903    Corrected SS          1146493.965324
+Coeff Variation             4.259868    Std Error Mean             10.761388
+
+            Basic Statistical Measures            
+
+Location               Variability                
+--------  -----------  -------------  ------------
+Mean      2526.225694  Std Deviation    107.613880
+Median    2493.045050  Variance       11580.747124
+Mode                .  Range            427.000000
+
+Quantiles (Definition 5)
+
+Quantile       Estimate
+----------  -----------
+0% Min      2306.649900
+1%          2314.849950
+5%          2368.385000
+10%         2417.975000
+25% Q1      2455.019900
+50% Median  2493.045050
+75% Q3      2641.575100
+90%         2681.529900
+95%         2708.035000
+99%         2731.355000
+100% Max    2733.649900
+
+            Extreme Observations            
+
+Lowest                 Highest              
+--------  -----------  --------  -----------
+Value     2306.649900  Value     2709.540000
+Value     2323.050000  Value     2715.200000
+Value     2339.950000  Value     2726.510000
+Value     2360.610100  Value     2729.060100
+Value     2363.189900  Value     2733.649900
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         234.749058283         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                    Variable:  BBWI
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                       36.659500    Sum Observations         3665.950000
+Std Deviation               2.112376    Variance                    4.462134
+Skewness                    0.259894    Kurtosis                    0.447968
+Uncorrected SS         134833.645300    Corrected SS              441.751275
+Coeff Variation             5.762153    Std Error Mean              0.211238
+
+         Basic Statistical Measures          
+
+Location             Variability             
+--------  ---------  -------------  ---------
+Mean      36.659500  Std Deviation   2.112376
+Median    36.545000  Variance        4.462134
+Mode      36.150000  Range          10.400000
+
+     NOTE: The mode displayed is the smallest of 4 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min      31.830000
+1%          32.030000
+5%          32.805000
+10%         34.170000
+25% Q1      35.400000
+50% Median  36.545000
+75% Q3      37.820000
+90%         39.305000
+95%         40.755000
+99%         42.115000
+100% Max    42.230000
+
+          Extreme Observations          
+
+Lowest               Highest            
+--------  ---------  --------  ---------
+Value     31.830000  Value     41.130000
+Value     32.230000  Value     41.190000
+Value     32.240000  Value     41.810000
+Value     32.600000  Value     42.000000
+Value     32.610000  Value     42.230000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         173.546247978         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  BBY
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                       76.947900    Sum Observations         7694.790000
+Std Deviation               4.276738    Variance                   18.290489
+Skewness                    0.148890    Kurtosis                   -1.260685
+Uncorrected SS         593908.689900    Corrected SS             1810.758459
+Coeff Variation             5.557966    Std Error Mean              0.427674
+
+         Basic Statistical Measures          
+
+Location             Variability             
+--------  ---------  -------------  ---------
+Mean      76.947900  Std Deviation   4.276738
+Median    76.520000  Variance       18.290489
+Mode      79.050000  Range          15.800000
+
+     NOTE: The mode displayed is the smallest of 2 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min      69.150000
+1%          69.320000
+5%          71.010000
+10%         71.675000
+25% Q1      73.180000
+50% Median  76.520000
+75% Q3      80.500000
+90%         82.905000
+95%         83.595000
+99%         84.870000
+100% Max    84.950000
+
+          Extreme Observations          
+
+Lowest               Highest            
+--------  ---------  --------  ---------
+Value     69.150000  Value     83.620000
+Value     69.490000  Value     84.220000
+Value     70.320000  Value     84.220000
+Value     70.530000  Value     84.790000
+Value     70.740000  Value     84.950000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         179.921932814         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                    Variable:  BKNG
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                     2767.398397    Sum Observations       276739.839700
+Std Deviation             197.767481    Variance                39111.976363
+Skewness                    1.084942    Kurtosis                   -0.026862
+Uncorrected SS        769721474.431759    Corrected SS          3872085.659942
+Coeff Variation             7.146332    Std Error Mean             19.776748
+
+            Basic Statistical Measures            
+
+Location               Variability                
+--------  -----------  -------------  ------------
+Mean      2767.398397  Std Deviation    197.767481
+Median    2676.165000  Variance       39111.976363
+Mode      2597.370100  Range            734.240000
+
+Quantiles (Definition 5)
+
+Quantile       Estimate
+----------  -----------
+0% Min      2508.770000
+1%          2518.770000
+5%          2567.885000
+10%         2597.370100
+25% Q1      2635.779900
+50% Median  2676.165000
+75% Q3      2915.905050
+90%         3086.225000
+95%         3205.444950
+99%         3238.670050
+100% Max    3243.010000
+
+            Extreme Observations            
+
+Lowest                 Highest              
+--------  -----------  --------  -----------
+Value     2508.770000  Value     3206.230000
+Value     2528.770000  Value     3223.189900
+Value     2547.250000  Value     3225.970000
+Value     2550.000000  Value     3234.330100
+Value     2566.470000  Value     3243.010000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         139.931923555         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  BWA
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                       42.044149    Sum Observations         4204.414900
+Std Deviation               2.261413    Variance                    5.113990
+Skewness                    0.562775    Kurtosis                   -0.506618
+Uncorrected SS         177277.331532    Corrected SS              506.285019
+Coeff Variation             5.378663    Std Error Mean              0.226141
+
+         Basic Statistical Measures         
+
+Location             Variability            
+--------  ---------  -------------  --------
+Mean      42.044149  Std Deviation  2.261413
+Median    41.830900  Variance       5.113990
+Mode      40.760000  Range          9.273900
+
+     NOTE: The mode displayed is the smallest of 6 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min      37.676100
+1%          38.032600
+5%          39.058100
+10%         39.362900
+25% Q1      40.387300
+50% Median  41.830900
+75% Q3      42.999700
+90%         45.965000
+95%         46.305000
+99%         46.725000
+100% Max    46.950000
+
+          Extreme Observations          
+
+Lowest               Highest            
+--------  ---------  --------  ---------
+Value     37.676100  Value     46.400000
+Value     38.389100  Value     46.400000
+Value     38.829200  Value     46.470000
+Value     39.005300  Value     46.500000
+Value     39.022900  Value     46.950000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         185.919792328         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  CZR
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                       48.830750    Sum Observations         4883.075000
+Std Deviation               5.208831    Variance                   27.131921
+Skewness                    0.379589    Kurtosis                   -1.053403
+Uncorrected SS         241130.274725    Corrected SS             2686.060169
+Coeff Variation            10.667113    Std Error Mean              0.520883
+
+         Basic Statistical Measures          
+
+Location             Variability             
+--------  ---------  -------------  ---------
+Mean      48.830750  Std Deviation   5.208831
+Median    48.465000  Variance       27.131921
+Mode      41.380000  Range          18.370000
+
+     NOTE: The mode displayed is the smallest of 5 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min      41.010000
+1%          41.110000
+5%          41.530000
+10%         42.460000
+25% Q1      44.465000
+50% Median  48.465000
+75% Q3      52.900000
+90%         56.565000
+95%         57.795000
+99%         59.200000
+100% Max    59.380000
+
+          Extreme Observations          
+
+Lowest               Highest            
+--------  ---------  --------  ---------
+Value     41.010000  Value     57.800000
+Value     41.210000  Value     57.940000
+Value     41.380000  Value     58.100000
+Value     41.380000  Value     59.020000
+Value     41.400000  Value     59.380000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         93.746081493         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  KMX
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                       76.969900    Sum Observations         7696.990000
+Std Deviation               6.626823    Variance                   43.914787
+Skewness                   -0.325473    Kurtosis                   -1.275841
+Uncorrected SS         596784.114500    Corrected SS             4347.563899
+Coeff Variation             8.609630    Std Error Mean              0.662682
+
+         Basic Statistical Measures          
+
+Location             Variability             
+--------  ---------  -------------  ---------
+Mean      76.969900  Std Deviation   6.626823
+Median    79.105000  Variance       43.914787
+Mode      72.210000  Range          23.770000
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min      62.440000
+1%          62.970000
+5%          66.610000
+10%         68.350000
+25% Q1      71.090000
+50% Median  79.105000
+75% Q3      83.095000
+90%         84.785000
+95%         85.190000
+99%         86.020000
+100% Max    86.210000
+
+          Extreme Observations          
+
+Lowest               Highest            
+--------  ---------  --------  ---------
+Value     62.440000  Value     85.190000
+Value     63.500000  Value     85.440000
+Value     64.330000  Value     85.810000
+Value     64.580000  Value     85.830000
+Value     65.860000  Value     86.210000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         116.149015422         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  CCL
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                       13.930900    Sum Observations         1393.090000
+Std Deviation               3.585654    Variance                   12.856915
+Skewness                   -0.025047    Kurtosis                   -1.670988
+Uncorrected SS          20679.832100    Corrected SS             1272.834619
+Coeff Variation            25.738855    Std Error Mean              0.358565
+
+         Basic Statistical Measures          
+
+Location             Variability             
+--------  ---------  -------------  ---------
+Mean      13.930900  Std Deviation   3.585654
+Median    15.030000  Variance       12.856915
+Mode      15.800000  Range          10.540000
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min       8.760000
+1%           8.830000
+5%           9.305000
+10%          9.470000
+25% Q1      10.140000
+50% Median  15.030000
+75% Q3      17.405000
+90%         18.235000
+95%         18.880000
+99%         19.255000
+100% Max    19.300000
+
+         Extreme Observations          
+
+Lowest              Highest            
+--------  --------  --------  ---------
+Value     8.760000  Value     18.900000
+Value     8.900000  Value     18.960000
+Value     8.960000  Value     19.040000
+Value     9.210000  Value     19.210000
+Value     9.280000  Value     19.300000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         38.851767631         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  CMG
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                     1977.700609    Sum Observations       197770.060900
+Std Deviation             130.700724    Variance                17082.679334
+Skewness                   -0.834797    Kurtosis                   -0.632369
+Uncorrected SS        392821155.137966    Corrected SS          1691185.254069
+Coeff Variation             6.608721    Std Error Mean             13.070072
+
+            Basic Statistical Measures            
+
+Location               Variability                
+--------  -----------  -------------  ------------
+Mean      1977.700609  Std Deviation    130.700724
+Median    2044.655050  Variance       17082.679334
+Mode      2058.120100  Range            467.990000
+
+Quantiles (Definition 5)
+
+Quantile       Estimate
+----------  -----------
+0% Min      1685.210000
+1%          1688.385050
+5%          1715.895050
+10%         1776.730000
+25% Q1      1866.510000
+50% Median  2044.655050
+75% Q3      2071.150000
+90%         2100.180050
+95%         2122.125000
+99%         2146.164950
+100% Max    2153.200000
+
+            Extreme Observations            
+
+Lowest                 Highest              
+--------  -----------  --------  -----------
+Value     1685.210000  Value     2123.540000
+Value     1691.560100  Value     2127.510000
+Value     1695.770000  Value     2139.000000
+Value     1697.420000  Value     2139.129900
+Value     1714.060100  Value     2153.200000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         151.315198864         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  DRI
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                      159.987900    Sum Observations        15998.790000
+Std Deviation               6.825012    Variance                   46.580795
+Skewness                   -0.251033    Kurtosis                   -1.163715
+Uncorrected SS        2564224.313300    Corrected SS             4611.498659
+Coeff Variation             4.265955    Std Error Mean              0.682501
+
+          Basic Statistical Measures          
+
+Location              Variability             
+--------  ----------  -------------  ---------
+Mean      159.987900  Std Deviation   6.825012
+Median    161.355000  Variance       46.580795
+Mode      153.090000  Range          25.720000
+
+     NOTE: The mode displayed is the smallest of 4 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min      146.460000
+1%          146.735000
+5%          149.165000
+10%         150.765000
+25% Q1      153.075000
+50% Median  161.355000
+75% Q3      165.560000
+90%         168.140000
+95%         170.085000
+99%         171.815000
+100% Max    172.180000
+
+           Extreme Observations           
+
+Lowest                Highest             
+--------  ----------  --------  ----------
+Value     146.460000  Value     170.090000
+Value     147.010000  Value     170.260000
+Value     148.520000  Value     170.370000
+Value     148.550000  Value     171.450000
+Value     149.060000  Value     172.180000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         234.414078907         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                    Variable:  DECK
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                      506.969300    Sum Observations        50696.930000
+Std Deviation              36.111784    Variance                 1304.060946
+Skewness                    0.026642    Kurtosis                   -1.318003
+Uncorrected SS        25830889.147900    Corrected SS           129102.033651
+Coeff Variation             7.123071    Std Error Mean              3.611178
+
+           Basic Statistical Measures           
+
+Location              Variability               
+--------  ----------  -------------  -----------
+Mean      506.969300  Std Deviation    36.111784
+Median    502.220000  Variance       1304.060946
+Mode               .  Range           125.220000
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min      440.330000
+1%          443.360000
+5%          451.775000
+10%         457.500000
+25% Q1      477.995000
+50% Median  502.220000
+75% Q3      542.920000
+90%         555.345000
+95%         558.145000
+99%         565.320000
+100% Max    565.550000
+
+           Extreme Observations           
+
+Lowest                Highest             
+--------  ----------  --------  ----------
+Value     440.330000  Value     558.290000
+Value     446.390000  Value     559.450000
+Value     448.790000  Value     560.450000
+Value     449.180000  Value     565.090000
+Value     450.010000  Value     565.550000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         140.388882353         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  DPZ
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                      341.453600    Sum Observations        34145.360000
+Std Deviation              36.862813    Variance                 1358.866991
+Skewness                    0.503848    Kurtosis                   -1.335351
+Uncorrected SS        11793583.927400    Corrected SS           134527.832104
+Coeff Variation            10.795848    Std Error Mean              3.686281
+
+           Basic Statistical Measures           
+
+Location              Variability               
+--------  ----------  -------------  -----------
+Mean      341.453600  Std Deviation    36.862813
+Median    329.805000  Variance       1358.866991
+Mode      401.360000  Range           112.730000
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min      289.850000
+1%          290.620000
+5%          297.785000
+10%         301.855000
+25% Q1      310.025000
+50% Median  329.805000
+75% Q3      385.050000
+90%         397.320000
+95%         399.170000
+99%         401.970000
+100% Max    402.580000
+
+           Extreme Observations           
+
+Lowest                Highest             
+--------  ----------  --------  ----------
+Value     289.850000  Value     399.650000
+Value     291.390000  Value     400.880000
+Value     296.670000  Value     401.360000
+Value     297.560000  Value     401.360000
+Value     297.740000  Value     402.580000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         92.628199294         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  DHI
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                      114.802700    Sum Observations        11480.270000
+Std Deviation               9.366293    Variance                   87.727442
+Skewness                   -0.157322    Kurtosis                   -0.877467
+Uncorrected SS        1326651.009500    Corrected SS             8685.016771
+Coeff Variation             8.158600    Std Error Mean              0.936629
+
+          Basic Statistical Measures          
+
+Location              Variability             
+--------  ----------  -------------  ---------
+Mean      114.802700  Std Deviation   9.366293
+Median    115.330000  Variance       87.727442
+Mode               .  Range          35.360000
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min       95.640000
+1%           95.930000
+5%           98.050000
+10%         100.815000
+25% Q1      108.275000
+50% Median  115.330000
+75% Q3      123.030000
+90%         127.540000
+95%         127.985000
+99%         130.655000
+100% Max    131.000000
+
+          Extreme Observations           
+
+Lowest               Highest             
+--------  ---------  --------  ----------
+Value     95.640000  Value     128.050000
+Value     96.220000  Value     128.640000
+Value     97.390000  Value     130.010000
+Value     97.410000  Value     130.310000
+Value     97.980000  Value     131.000000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         122.570051557         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                    Variable:  EBAY
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                       44.656700    Sum Observations         4465.670000
+Std Deviation               1.492826    Variance                    2.228529
+Skewness                    1.280491    Kurtosis                    1.351256
+Uncorrected SS         199642.709900    Corrected SS              220.624411
+Coeff Variation             3.342894    Std Error Mean              0.149283
+
+         Basic Statistical Measures         
+
+Location             Variability            
+--------  ---------  -------------  --------
+Mean      44.656700  Std Deviation  1.492826
+Median    44.270000  Variance       2.228529
+Mode      43.850000  Range          6.490000
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min      42.540000
+1%          42.660000
+5%          43.010000
+10%         43.200000
+25% Q1      43.575000
+50% Median  44.270000
+75% Q3      45.405000
+90%         46.465000
+95%         48.325000
+99%         48.985000
+100% Max    49.030000
+
+          Extreme Observations          
+
+Lowest               Highest            
+--------  ---------  --------  ---------
+Value     42.540000  Value     48.340000
+Value     42.780000  Value     48.800000
+Value     42.930000  Value     48.840000
+Value     42.950000  Value     48.940000
+Value     42.990000  Value     49.030000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         299.142034126         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                    Variable:  ETSY
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                       91.259050    Sum Observations         9125.905000
+Std Deviation               8.782302    Variance                   77.128836
+Skewness                   -0.340435    Kurtosis                   -0.492508
+Uncorrected SS         840457.175425    Corrected SS             7635.754735
+Coeff Variation             9.623487    Std Error Mean              0.878230
+
+         Basic Statistical Measures          
+
+Location             Variability             
+--------  ---------  -------------  ---------
+Mean      91.259050  Std Deviation   8.782302
+Median    92.680000  Variance       77.128836
+Mode      94.990000  Range          38.020000
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min       71.620000
+1%           72.350000
+5%           73.865000
+10%          78.755000
+25% Q1       85.200000
+50% Median   92.680000
+75% Q3       97.255000
+90%         102.310000
+95%         103.380000
+99%         108.945000
+100% Max    109.640000
+
+          Extreme Observations           
+
+Lowest               Highest             
+--------  ---------  --------  ----------
+Value     71.620000  Value     103.640000
+Value     73.080000  Value     104.060000
+Value     73.320000  Value     105.270000
+Value     73.480000  Value     108.250000
+Value     73.780000  Value     109.640000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         103.912443104         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                    Variable:  EXPE
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                      103.824200    Sum Observations        10382.420000
+Std Deviation              10.040584    Variance                  100.813326
+Skewness                    0.151072    Kurtosis                   -1.294634
+Uncorrected SS        1087926.969800    Corrected SS             9980.519236
+Coeff Variation             9.670755    Std Error Mean              1.004058
+
+          Basic Statistical Measures           
+
+Location              Variability              
+--------  ----------  -------------  ----------
+Mean      103.824200  Std Deviation   10.040584
+Median    105.915000  Variance       100.813326
+Mode      111.540000  Range           33.360000
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min       89.170000
+1%           89.255000
+5%           90.220000
+10%          91.595000
+25% Q1       93.880000
+50% Median  105.915000
+75% Q3      111.250000
+90%         118.845000
+95%         119.875000
+99%         121.835000
+100% Max    122.530000
+
+          Extreme Observations           
+
+Lowest               Highest             
+--------  ---------  --------  ----------
+Value     89.170000  Value     120.090000
+Value     89.340000  Value     120.740000
+Value     89.450000  Value     121.000000
+Value     89.810000  Value     121.140000
+Value     89.870000  Value     122.530000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         103.404543744         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                      Variable:  F
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                       12.949600    Sum Observations         1294.960000
+Std Deviation               1.184702    Variance                    1.403519
+Skewness                    0.529115    Kurtosis                   -1.001810
+Uncorrected SS          16908.162400    Corrected SS              138.948384
+Coeff Variation             9.148561    Std Error Mean              0.118470
+
+         Basic Statistical Measures         
+
+Location             Variability            
+--------  ---------  -------------  --------
+Mean      12.949600  Std Deviation  1.184702
+Median    12.680000  Variance       1.403519
+Mode      11.870000  Range          4.100000
+
+     NOTE: The mode displayed is the smallest of 2 modes with a count of 3.
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min      11.250000
+1%          11.290000
+5%          11.550000
+10%         11.645000
+25% Q1      11.885000
+50% Median  12.680000
+75% Q3      14.020000
+90%         14.965000
+95%         15.160000
+99%         15.295000
+100% Max    15.350000
+
+          Extreme Observations          
+
+Lowest               Highest            
+--------  ---------  --------  ---------
+Value     11.250000  Value     15.190000
+Value     11.330000  Value     15.220000
+Value     11.380000  Value     15.230000
+Value     11.500000  Value     15.240000
+Value     11.540000  Value     15.350000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         109.306805175         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                    Variable:  GRMN
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                      103.302400    Sum Observations        10330.240000
+Std Deviation               3.099658    Variance                    9.607879
+Skewness                   -0.739879    Kurtosis                   -0.389278
+Uncorrected SS        1068089.764600    Corrected SS              951.180024
+Coeff Variation             3.000567    Std Error Mean              0.309966
+
+          Basic Statistical Measures          
+
+Location              Variability             
+--------  ----------  -------------  ---------
+Mean      103.302400  Std Deviation   3.099658
+Median    103.825000  Variance        9.607879
+Mode      100.080000  Range          12.530000
+
+     NOTE: The mode displayed is the smallest of 4 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min       95.200000
+1%           95.640000
+5%           97.715000
+10%          98.195000
+25% Q1      101.640000
+50% Median  103.825000
+75% Q3      105.880000
+90%         106.585000
+95%         107.430000
+99%         107.705000
+100% Max    107.730000
+
+          Extreme Observations           
+
+Lowest               Highest             
+--------  ---------  --------  ----------
+Value     95.200000  Value     107.450000
+Value     96.080000  Value     107.570000
+Value     96.940000  Value     107.580000
+Value     97.170000  Value     107.680000
+Value     97.700000  Value     107.730000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         333.270327538         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  GM
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                       35.541000    Sum Observations         3554.100000
+Std Deviation               2.535999    Variance                    6.431290
+Skewness                    0.294595    Kurtosis                   -1.272509
+Uncorrected SS         126952.965800    Corrected SS              636.697700
+Coeff Variation             7.135418    Std Error Mean              0.253600
+
+         Basic Statistical Measures         
+
+Location             Variability            
+--------  ---------  -------------  --------
+Mean      35.541000  Std Deviation  2.535999
+Median    35.190000  Variance       6.431290
+Mode      32.410000  Range          8.960000
+
+     NOTE: The mode displayed is the smallest of 3 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min      31.540000
+1%          31.615000
+5%          32.385000
+10%         32.570000
+25% Q1      33.190000
+50% Median  35.190000
+75% Q3      37.940000
+90%         39.245000
+95%         39.625000
+99%         40.455000
+100% Max    40.500000
+
+          Extreme Observations          
+
+Lowest               Highest            
+--------  ---------  --------  ---------
+Value     31.540000  Value     39.640000
+Value     31.690000  Value     39.970000
+Value     32.220000  Value     40.000000
+Value     32.280000  Value     40.410000
+Value     32.370000  Value     40.500000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         140.145965528         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  GPC
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                      161.977200    Sum Observations        16197.720000
+Std Deviation               6.206071    Variance                   38.515321
+Skewness                   -0.024768    Kurtosis                   -1.058961
+Uncorrected SS        2627474.348800    Corrected SS             3813.016816
+Coeff Variation             3.831447    Std Error Mean              0.620607
+
+          Basic Statistical Measures          
+
+Location              Variability             
+--------  ----------  -------------  ---------
+Mean      161.977200  Std Deviation   6.206071
+Median    162.465000  Variance       38.515321
+Mode      161.470000  Range          24.800000
+
+     NOTE: The mode displayed is the smallest of 5 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min      148.930000
+1%          149.075000
+5%          152.830000
+10%         154.230000
+25% Q1      156.390000
+50% Median  162.465000
+75% Q3      166.645000
+90%         170.200000
+95%         171.810000
+99%         173.710000
+100% Max    173.730000
+
+           Extreme Observations           
+
+Lowest                Highest             
+--------  ----------  --------  ----------
+Value     148.930000  Value     171.980000
+Value     149.220000  Value     172.610000
+Value     152.000000  Value     173.220000
+Value     152.300000  Value     173.690000
+Value     152.540000  Value     173.730000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         260.9979669         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  HAS
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                       60.746800    Sum Observations         6074.680000
+Std Deviation               4.447738    Variance                   19.782376
+Skewness                   -0.988065    Kurtosis                   -0.049837
+Uncorrected SS         370975.826200    Corrected SS             1958.455176
+Coeff Variation             7.321766    Std Error Mean              0.444774
+
+         Basic Statistical Measures          
+
+Location             Variability             
+--------  ---------  -------------  ---------
+Mean      60.746800  Std Deviation   4.447738
+Median    61.550000  Variance       19.782376
+Mode      60.020000  Range          16.670000
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min      51.040000
+1%          51.165000
+5%          51.710000
+10%         52.385000
+25% Q1      59.725000
+50% Median  61.550000
+75% Q3      64.090000
+90%         65.035000
+95%         65.725000
+99%         67.275000
+100% Max    67.710000
+
+          Extreme Observations          
+
+Lowest               Highest            
+--------  ---------  --------  ---------
+Value     51.040000  Value     65.770000
+Value     51.290000  Value     65.950000
+Value     51.300000  Value     66.060000
+Value     51.410000  Value     66.840000
+Value     51.690000  Value     67.710000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         136.579080477         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  HLT
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                      145.706700    Sum Observations        14570.670000
+Std Deviation               5.179581    Variance                   26.828061
+Skewness                    0.185193    Kurtosis                   -0.938052
+Uncorrected SS        2125700.220500    Corrected SS             2655.978011
+Coeff Variation             3.554800    Std Error Mean              0.517958
+
+          Basic Statistical Measures          
+
+Location              Variability             
+--------  ----------  -------------  ---------
+Mean      145.706700  Std Deviation   5.179581
+Median    145.075000  Variance       26.828061
+Mode      142.410000  Range          19.410000
+
+     NOTE: The mode displayed is the smallest of 4 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min      136.080000
+1%          136.100000
+5%          137.690000
+10%         139.245000
+25% Q1      141.720000
+50% Median  145.075000
+75% Q3      149.980000
+90%         153.570000
+95%         154.380000
+99%         155.435000
+100% Max    155.490000
+
+           Extreme Observations           
+
+Lowest                Highest             
+--------  ----------  --------  ----------
+Value     136.080000  Value     154.570000
+Value     136.120000  Value     154.840000
+Value     136.850000  Value     155.320000
+Value     137.110000  Value     155.380000
+Value     137.670000  Value     155.490000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         281.309812991         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  HD
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                      305.893000    Sum Observations        30589.300000
+Std Deviation              15.295967    Variance                  233.966609
+Skewness                    0.462868    Kurtosis                   -1.222120
+Uncorrected SS        9380215.439200    Corrected SS            23162.694300
+Coeff Variation             5.000431    Std Error Mean              1.529597
+
+          Basic Statistical Measures           
+
+Location              Variability              
+--------  ----------  -------------  ----------
+Mean      305.893000  Std Deviation   15.295967
+Median    300.835000  Variance       233.966609
+Mode      302.020000  Range           51.510000
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min      282.330000
+1%          282.890000
+5%          287.810000
+10%         288.640000
+25% Q1      292.955000
+50% Median  300.835000
+75% Q3      319.975000
+90%         329.495000
+95%         331.240000
+99%         333.435000
+100% Max    333.840000
+
+           Extreme Observations           
+
+Lowest                Highest             
+--------  ----------  --------  ----------
+Value     282.330000  Value     331.370000
+Value     283.450000  Value     332.070000
+Value     285.750000  Value     332.140000
+Value     286.750000  Value     333.030000
+Value     287.690000  Value     333.840000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         199.982778652         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  LVS
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                       58.339700    Sum Observations         5833.970000
+Std Deviation               2.575162    Variance                    6.631457
+Skewness                    0.158545    Kurtosis                   -0.101111
+Uncorrected SS         341008.573900    Corrected SS              656.514291
+Coeff Variation             4.414081    Std Error Mean              0.257516
+
+         Basic Statistical Measures          
+
+Location             Variability             
+--------  ---------  -------------  ---------
+Mean      58.339700  Std Deviation   2.575162
+Median    58.325000  Variance        6.631457
+Mode      58.140000  Range          11.860000
+
+     NOTE: The mode displayed is the smallest of 2 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min      53.000000
+1%          53.170000
+5%          53.555000
+10%         55.080000
+25% Q1      56.540000
+50% Median  58.325000
+75% Q3      59.735000
+90%         62.000000
+95%         62.785000
+99%         64.405000
+100% Max    64.860000
+
+          Extreme Observations          
+
+Lowest               Highest            
+--------  ---------  --------  ---------
+Value     53.000000  Value     63.050000
+Value     53.340000  Value     63.630000
+Value     53.370000  Value     63.850000
+Value     53.440000  Value     63.950000
+Value     53.480000  Value     64.860000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         226.547720492         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  LEN
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                      117.262200    Sum Observations        11726.220000
+Std Deviation               7.918769    Variance                   62.706900
+Skewness                    0.002483    Kurtosis                   -1.077645
+Uncorrected SS        1381250.338000    Corrected SS             6207.983116
+Coeff Variation             6.753045    Std Error Mean              0.791877
+
+          Basic Statistical Measures          
+
+Location              Variability             
+--------  ----------  -------------  ---------
+Mean      117.262200  Std Deviation   7.918769
+Median    115.860000  Variance       62.706900
+Mode      114.000000  Range          31.180000
+
+     NOTE: The mode displayed is the smallest of 2 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min      102.060000
+1%          102.325000
+5%          104.515000
+10%         106.570000
+25% Q1      111.905000
+50% Median  115.860000
+75% Q3      125.050000
+90%         127.260000
+95%         129.180000
+99%         132.115000
+100% Max    133.240000
+
+           Extreme Observations           
+
+Lowest                Highest             
+--------  ----------  --------  ----------
+Value     102.060000  Value     130.080000
+Value     102.590000  Value     130.390000
+Value     103.830000  Value     130.750000
+Value     103.840000  Value     130.990000
+Value     104.030000  Value     133.240000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         148.081352245         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  LKQ
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                       55.537800    Sum Observations         5553.780000
+Std Deviation               1.853183    Variance                    3.434288
+Skewness                   -0.262792    Kurtosis                   -0.861451
+Uncorrected SS         308784.717400    Corrected SS              339.994516
+Coeff Variation             3.336796    Std Error Mean              0.185318
+
+         Basic Statistical Measures         
+
+Location             Variability            
+--------  ---------  -------------  --------
+Mean      55.537800  Std Deviation  1.853183
+Median    55.810000  Variance       3.434288
+Mode      53.660000  Range          7.620000
+
+     NOTE: The mode displayed is the smallest of 3 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min      51.390000
+1%          51.630000
+5%          52.215000
+10%         52.860000
+25% Q1      54.230000
+50% Median  55.810000
+75% Q3      57.040000
+90%         57.865000
+95%         58.265000
+99%         58.815000
+100% Max    59.010000
+
+          Extreme Observations          
+
+Lowest               Highest            
+--------  ---------  --------  ---------
+Value     51.390000  Value     58.270000
+Value     51.870000  Value     58.290000
+Value     51.920000  Value     58.520000
+Value     51.960000  Value     58.620000
+Value     52.080000  Value     59.010000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         299.688662476         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  LOW
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                      215.212100    Sum Observations        21521.210000
+Std Deviation              11.065494    Variance                  122.445162
+Skewness                    0.244035    Kurtosis                   -1.299049
+Uncorrected SS        4643746.869700    Corrected SS            12122.071059
+Coeff Variation             5.141669    Std Error Mean              1.106549
+
+          Basic Statistical Measures           
+
+Location              Variability              
+--------  ----------  -------------  ----------
+Mean      215.212100  Std Deviation   11.065494
+Median    214.535000  Variance       122.445162
+Mode      211.040000  Range           36.520000
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min      198.570000
+1%          198.895000
+5%          200.290000
+10%         201.510000
+25% Q1      205.505000
+50% Median  214.535000
+75% Q3      224.215000
+90%         230.940000
+95%         233.970000
+99%         234.995000
+100% Max    235.090000
+
+           Extreme Observations           
+
+Lowest                Highest             
+--------  ----------  --------  ----------
+Value     198.570000  Value     234.000000
+Value     199.220000  Value     234.070000
+Value     199.430000  Value     234.270000
+Value     199.770000  Value     234.900000
+Value     199.780000  Value     235.090000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         194.489370133         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                    Variable:  LULU
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                      372.873300    Sum Observations        37287.330000
+Std Deviation              12.178766    Variance                  148.322352
+Skewness                   -1.646876    Kurtosis                    2.852054
+Uncorrected SS        13918133.698100    Corrected SS            14683.912811
+Coeff Variation             3.266194    Std Error Mean              1.217877
+
+          Basic Statistical Measures           
+
+Location              Variability              
+--------  ----------  -------------  ----------
+Mean      372.873300  Std Deviation   12.178766
+Median    377.265000  Variance       148.322352
+Mode      377.960000  Range           62.160000
+
+     NOTE: The mode displayed is the smallest of 2 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min      328.350000
+1%          330.140000
+5%          343.460000
+10%         356.230000
+25% Q1      367.790000
+50% Median  377.265000
+75% Q3      381.250000
+90%         383.405000
+95%         384.945000
+99%         388.610000
+100% Max    390.510000
+
+           Extreme Observations           
+
+Lowest                Highest             
+--------  ----------  --------  ----------
+Value     328.350000  Value     384.990000
+Value     331.930000  Value     385.020000
+Value     336.640000  Value     385.420000
+Value     340.260000  Value     386.710000
+Value     342.340000  Value     390.510000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         306.166722473         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  MAR
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                      182.603800    Sum Observations        18260.380000
+Std Deviation              13.361956    Variance                  178.541864
+Skewness                    0.484710    Kurtosis                   -0.947194
+Uncorrected SS        3352090.422000    Corrected SS            17675.644556
+Coeff Variation             7.317458    Std Error Mean              1.336196
+
+          Basic Statistical Measures           
+
+Location              Variability              
+--------  ----------  -------------  ----------
+Mean      182.603800  Std Deviation   13.361956
+Median    178.440000  Variance       178.541864
+Mode      177.220000  Range           47.040000
+
+     NOTE: The mode displayed is the smallest of 2 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min      161.470000
+1%          162.015000
+5%          164.130000
+10%         166.645000
+25% Q1      173.685000
+50% Median  178.440000
+75% Q3      193.695000
+90%         203.730000
+95%         206.290000
+99%         208.450000
+100% Max    208.510000
+
+           Extreme Observations           
+
+Lowest                Highest             
+--------  ----------  --------  ----------
+Value     161.470000  Value     206.460000
+Value     162.560000  Value     206.480000
+Value     162.790000  Value     206.840000
+Value     163.050000  Value     208.390000
+Value     163.880000  Value     208.510000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         136.659484597         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  MCD
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                      290.589300    Sum Observations        29058.930000
+Std Deviation               4.775520    Variance                   22.805588
+Skewness                   -0.461030    Kurtosis                   -0.814470
+Uncorrected SS        8446471.880700    Corrected SS             2257.753251
+Coeff Variation             1.643391    Std Error Mean              0.477552
+
+          Basic Statistical Measures          
+
+Location              Variability             
+--------  ----------  -------------  ---------
+Mean      290.589300  Std Deviation   4.775520
+Median    291.285000  Variance       22.805588
+Mode      289.910000  Range          18.370000
+
+     NOTE: The mode displayed is the smallest of 4 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min      280.040000
+1%          280.175000
+5%          281.885000
+10%         282.620000
+25% Q1      287.310000
+50% Median  291.285000
+75% Q3      294.730000
+90%         296.020000
+95%         296.795000
+99%         298.240000
+100% Max    298.410000
+
+           Extreme Observations           
+
+Lowest                Highest             
+--------  ----------  --------  ----------
+Value     280.040000  Value     296.900000
+Value     280.310000  Value     297.130000
+Value     281.740000  Value     297.580000
+Value     281.860000  Value     298.070000
+Value     281.870000  Value     298.410000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         608.497751713         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  MGM
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                       44.132100    Sum Observations         4413.210000
+Std Deviation               2.835890    Variance                    8.042273
+Skewness                    0.817450    Kurtosis                    0.067247
+Uncorrected SS         195560.410100    Corrected SS              796.185059
+Coeff Variation             6.425913    Std Error Mean              0.283589
+
+         Basic Statistical Measures          
+
+Location             Variability             
+--------  ---------  -------------  ---------
+Mean      44.132100  Std Deviation   2.835890
+Median    43.390000  Variance        8.042273
+Mode      42.640000  Range          11.780000
+
+     NOTE: The mode displayed is the smallest of 6 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min      39.120000
+1%          39.205000
+5%          40.065000
+10%         41.230000
+25% Q1      42.460000
+50% Median  43.390000
+75% Q3      45.680000
+90%         49.440000
+95%         49.980000
+99%         50.835000
+100% Max    50.900000
+
+          Extreme Observations          
+
+Lowest               Highest            
+--------  ---------  --------  ---------
+Value     39.120000  Value     50.030000
+Value     39.290000  Value     50.090000
+Value     39.640000  Value     50.170000
+Value     39.830000  Value     50.770000
+Value     39.960000  Value     50.900000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         155.619916929         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  MHK
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                      100.983300    Sum Observations        10098.330000
+Std Deviation               5.765812    Variance                   33.244586
+Skewness                    0.948439    Kurtosis                    0.145686
+Uncorrected SS        1023053.901900    Corrected SS             3291.214011
+Coeff Variation             5.709669    Std Error Mean              0.576581
+
+          Basic Statistical Measures          
+
+Location              Variability             
+--------  ----------  -------------  ---------
+Mean      100.983300  Std Deviation   5.765812
+Median     99.100000  Variance       33.244586
+Mode       96.670000  Range          24.070000
+
+     NOTE: The mode displayed is the smallest of 5 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min       92.040000
+1%           92.230000
+5%           94.145000
+10%          94.960000
+25% Q1       96.875000
+50% Median   99.100000
+75% Q3      103.375000
+90%         110.880000
+95%         112.955000
+99%         115.560000
+100% Max    116.110000
+
+          Extreme Observations           
+
+Lowest               Highest             
+--------  ---------  --------  ----------
+Value     92.040000  Value     113.110000
+Value     92.420000  Value     113.770000
+Value     92.590000  Value     114.860000
+Value     93.610000  Value     115.010000
+Value     94.140000  Value     116.110000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         175.141511921         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  NKE
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                      113.239300    Sum Observations        11323.930000
+Std Deviation               8.073821    Variance                   65.186578
+Skewness                    0.525285    Kurtosis                   -1.069498
+Uncorrected SS        1288767.377700    Corrected SS             6453.471251
+Coeff Variation             7.129875    Std Error Mean              0.807382
+
+          Basic Statistical Measures          
+
+Location              Variability             
+--------  ----------  -------------  ---------
+Mean      113.239300  Std Deviation   8.073821
+Median    109.690000  Variance       65.186578
+Mode      107.510000  Range          30.290000
+
+     NOTE: The mode displayed is the smallest of 2 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min       97.630000
+1%           98.190000
+5%          104.045000
+10%         105.230000
+25% Q1      107.510000
+50% Median  109.690000
+75% Q3      121.790000
+90%         126.070000
+95%         126.730000
+99%         127.590000
+100% Max    127.920000
+
+           Extreme Observations           
+
+Lowest                Highest             
+--------  ----------  --------  ----------
+Value      97.630000  Value     126.740000
+Value      98.750000  Value     126.880000
+Value     101.460000  Value     127.090000
+Value     102.860000  Value     127.260000
+Value     103.630000  Value     127.920000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         140.254913126         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                    Variable:  NCLH
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                       16.965900    Sum Observations         1696.590000
+Std Deviation               3.192168    Variance                   10.189940
+Skewness                    0.172029    Kurtosis                   -1.396122
+Uncorrected SS          29792.980300    Corrected SS             1008.804019
+Coeff Variation            18.815203    Std Error Mean              0.319217
+
+         Basic Statistical Measures          
+
+Location             Variability             
+--------  ---------  -------------  ---------
+Mean      16.965900  Std Deviation   3.192168
+Median    17.015000  Variance       10.189940
+Mode      13.350000  Range          10.060000
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min      12.460000
+1%          12.550000
+5%          12.780000
+10%         13.045000
+25% Q1      14.095000
+50% Median  17.015000
+75% Q3      19.505000
+90%         21.515000
+95%         21.900000
+99%         22.465000
+100% Max    22.520000
+
+          Extreme Observations          
+
+Lowest               Highest            
+--------  ---------  --------  ---------
+Value     12.460000  Value     21.910000
+Value     12.640000  Value     22.070000
+Value     12.640000  Value     22.160000
+Value     12.730000  Value     22.410000
+Value     12.730000  Value     22.520000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         53.148510556         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  NVR
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                     5981.042411    Sum Observations       598104.241100
+Std Deviation             273.110561    Variance                74589.378414
+Skewness                   -0.028600    Kurtosis                   -1.153403
+Uncorrected SS        3584671180.681102    Corrected SS          7384348.463033
+Coeff Variation             4.566270    Std Error Mean             27.311056
+
+            Basic Statistical Measures            
+
+Location               Variability                
+--------  -----------  -------------  ------------
+Mean      5981.042411  Std Deviation    273.110561
+Median    5937.294950  Variance       74589.378414
+Mode                .  Range            997.919900
+
+Quantiles (Definition 5)
+
+Quantile       Estimate
+----------  -----------
+0% Min      5468.080100
+1%          5473.975100
+5%          5562.415050
+10%         5587.960200
+25% Q1      5800.435050
+50% Median  5937.294950
+75% Q3      6230.859850
+90%         6346.010000
+95%         6385.360100
+99%         6455.975100
+100% Max    6466.000000
+
+            Extreme Observations            
+
+Lowest                 Highest              
+--------  -----------  --------  -----------
+Value     5468.080100  Value     6387.740200
+Value     5479.870100  Value     6396.549800
+Value     5526.810100  Value     6408.980000
+Value     5542.839800  Value     6445.950200
+Value     5554.220200  Value     6466.000000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         218.997112148         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                    Variable:  ORLY
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                      927.017400    Sum Observations        92701.740000
+Std Deviation              26.610545    Variance                  708.121080
+Skewness                   -0.665075    Kurtosis                   -0.059982
+Uncorrected SS        86006229.977200    Corrected SS            70103.986924
+Coeff Variation             2.870555    Std Error Mean              2.661054
+
+          Basic Statistical Measures           
+
+Location              Variability              
+--------  ----------  -------------  ----------
+Mean      927.017400  Std Deviation   26.610545
+Median    931.660000  Variance       708.121080
+Mode      931.670000  Range          110.880000
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min      858.350000
+1%          859.740000
+5%          870.395000
+10%         890.110000
+25% Q1      909.780000
+50% Median  931.660000
+75% Q3      946.065000
+90%         959.675000
+95%         963.880000
+99%         969.095000
+100% Max    969.230000
+
+           Extreme Observations           
+
+Lowest                Highest             
+--------  ----------  --------  ----------
+Value     858.350000  Value     964.310000
+Value     861.130000  Value     965.620000
+Value     864.440000  Value     967.560000
+Value     867.950000  Value     968.960000
+Value     869.750000  Value     969.230000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         348.36468643         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                    Variable:  POOL
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                      353.232600    Sum Observations        35323.260000
+Std Deviation              19.304255    Variance                  372.654264
+Skewness                    0.169810    Kurtosis                   -0.900345
+Uncorrected SS        12514219.742400    Corrected SS            36892.772124
+Coeff Variation             5.465026    Std Error Mean              1.930426
+
+          Basic Statistical Measures           
+
+Location              Variability              
+--------  ----------  -------------  ----------
+Mean      353.232600  Std Deviation   19.304255
+Median    351.460000  Variance       372.654264
+Mode               .  Range           75.350000
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min      313.020000
+1%          314.625000
+5%          325.450000
+10%         327.435000
+25% Q1      338.660000
+50% Median  351.460000
+75% Q3      368.920000
+90%         382.280000
+95%         385.615000
+99%         388.075000
+100% Max    388.370000
+
+           Extreme Observations           
+
+Lowest                Highest             
+--------  ----------  --------  ----------
+Value     313.020000  Value     386.090000
+Value     316.230000  Value     386.270000
+Value     321.820000  Value     387.160000
+Value     322.770000  Value     387.780000
+Value     324.640000  Value     388.370000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         182.981730549         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  PHM
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                       72.856400    Sum Observations         7285.640000
+Std Deviation               8.079070    Variance                   65.271379
+Skewness                   -0.119156    Kurtosis                   -1.141196
+Uncorrected SS         537267.368600    Corrected SS             6461.866504
+Coeff Variation            11.089033    Std Error Mean              0.807907
+
+         Basic Statistical Measures          
+
+Location             Variability             
+--------  ---------  -------------  ---------
+Mean      72.856400  Std Deviation   8.079070
+Median    73.380000  Variance       65.271379
+Mode              .  Range          28.170000
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min      57.840000
+1%          58.085000
+5%          59.105000
+10%         61.515000
+25% Q1      66.430000
+50% Median  73.380000
+75% Q3      79.065000
+90%         83.840000
+95%         84.505000
+99%         85.820000
+100% Max    86.010000
+
+          Extreme Observations          
+
+Lowest               Highest            
+--------  ---------  --------  ---------
+Value     57.840000  Value     84.620000
+Value     58.330000  Value     84.820000
+Value     58.420000  Value     85.070000
+Value     58.630000  Value     85.630000
+Value     59.000000  Value     86.010000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         90.179186745         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  RL
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                      119.029800    Sum Observations        11902.980000
+Std Deviation               6.955796    Variance                   48.383099
+Skewness                    0.227612    Kurtosis                   -0.977129
+Uncorrected SS        1421599.255600    Corrected SS             4789.926796
+Coeff Variation             5.843743    Std Error Mean              0.695580
+
+          Basic Statistical Measures          
+
+Location              Variability             
+--------  ----------  -------------  ---------
+Mean      119.029800  Std Deviation   6.955796
+Median    118.145000  Variance       48.383099
+Mode      113.700000  Range          26.120000
+
+     NOTE: The mode displayed is the smallest of 3 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min      106.090000
+1%          106.200000
+5%          108.970000
+10%         110.280000
+25% Q1      113.140000
+50% Median  118.145000
+75% Q3      123.690000
+90%         128.675000
+95%         131.405000
+99%         132.005000
+100% Max    132.210000
+
+           Extreme Observations           
+
+Lowest                Highest             
+--------  ----------  --------  ----------
+Value     106.090000  Value     131.480000
+Value     106.310000  Value     131.620000
+Value     107.960000  Value     131.740000
+Value     108.220000  Value     131.800000
+Value     108.820000  Value     132.210000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         171.123188236         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                    Variable:  ROST
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                      108.227800    Sum Observations        10822.780000
+Std Deviation               4.695852    Variance                   22.051023
+Skewness                    0.607750    Kurtosis                   -0.358719
+Uncorrected SS        1173508.720600    Corrected SS             2183.051316
+Coeff Variation             4.338859    Std Error Mean              0.469585
+
+          Basic Statistical Measures          
+
+Location              Variability             
+--------  ----------  -------------  ---------
+Mean      108.227800  Std Deviation   4.695852
+Median    107.260000  Variance       22.051023
+Mode      112.590000  Range          20.980000
+
+     NOTE: The mode displayed is the smallest of 2 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min      100.900000
+1%          101.180000
+5%          102.165000
+10%         103.015000
+25% Q1      104.225000
+50% Median  107.260000
+75% Q3      112.165000
+90%         114.000000
+95%         116.510000
+99%         120.520000
+100% Max    121.880000
+
+           Extreme Observations           
+
+Lowest                Highest             
+--------  ----------  --------  ----------
+Value     100.900000  Value     117.790000
+Value     101.460000  Value     118.720000
+Value     101.880000  Value     118.860000
+Value     101.950000  Value     119.160000
+Value     101.990000  Value     121.880000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         230.475335274         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  RCL
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                       87.581800    Sum Observations         8758.180000
+Std Deviation              16.094001    Variance                  259.016861
+Skewness                   -0.446278    Kurtosis                   -1.331859
+Uncorrected SS         792699.838400    Corrected SS            25642.669276
+Coeff Variation            18.375965    Std Error Mean              1.609400
+
+          Basic Statistical Measures          
+
+Location             Variability              
+--------  ---------  -------------  ----------
+Mean      87.581800  Std Deviation   16.094001
+Median    95.010000  Variance       259.016861
+Mode      99.270000  Range           50.120000
+
+     NOTE: The mode displayed is the smallest of 2 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min       59.560000
+1%           59.975000
+5%           61.785000
+10%          62.380000
+25% Q1       75.865000
+50% Median   95.010000
+75% Q3      101.590000
+90%         103.745000
+95%         106.795000
+99%         109.395000
+100% Max    109.680000
+
+          Extreme Observations           
+
+Lowest               Highest             
+--------  ---------  --------  ----------
+Value     59.560000  Value     107.440000
+Value     60.390000  Value     108.060000
+Value     61.280000  Value     108.570000
+Value     61.580000  Value     109.110000
+Value     61.660000  Value     109.680000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         54.418911215         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                    Variable:  SBUX
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                      102.345800    Sum Observations        10234.580000
+Std Deviation               4.350927    Variance                   18.930564
+Skewness                    0.796235    Kurtosis                    0.374035
+Uncorrected SS        1049340.403600    Corrected SS             1874.125836
+Coeff Variation             4.251202    Std Error Mean              0.435093
+
+          Basic Statistical Measures          
+
+Location              Variability             
+--------  ----------  -------------  ---------
+Mean      102.345800  Std Deviation   4.350927
+Median    101.325000  Variance       18.930564
+Mode       98.460000  Range          19.730000
+
+     NOTE: The mode displayed is the smallest of 3 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min       94.830000
+1%           95.005000
+5%           96.330000
+10%          97.695000
+25% Q1       99.095000
+50% Median  101.325000
+75% Q3      105.555000
+90%         107.690000
+95%         110.405000
+99%         114.510000
+100% Max    114.560000
+
+          Extreme Observations           
+
+Lowest               Highest             
+--------  ---------  --------  ----------
+Value     94.830000  Value     111.470000
+Value     95.180000  Value     112.750000
+Value     96.050000  Value     114.290000
+Value     96.070000  Value     114.460000
+Value     96.200000  Value     114.560000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         235.227584273         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  TPR
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                       41.123500    Sum Observations         4112.350000
+Std Deviation               2.789205    Variance                    7.779663
+Skewness                   -1.579315    Kurtosis                    1.683982
+Uncorrected SS         169884.411900    Corrected SS              770.186675
+Coeff Variation             6.782508    Std Error Mean              0.278920
+
+         Basic Statistical Measures          
+
+Location             Variability             
+--------  ---------  -------------  ---------
+Mean      41.123500  Std Deviation   2.789205
+Median    42.055000  Variance        7.779663
+Mode      41.450000  Range          11.370000
+
+     NOTE: The mode displayed is the smallest of 6 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min      33.090000
+1%          33.125000
+5%          34.460000
+10%         35.470000
+25% Q1      40.535000
+50% Median  42.055000
+75% Q3      42.935000
+90%         43.420000
+95%         43.660000
+99%         44.425000
+100% Max    44.460000
+
+          Extreme Observations          
+
+Lowest               Highest            
+--------  ---------  --------  ---------
+Value     33.090000  Value     43.660000
+Value     33.160000  Value     44.130000
+Value     33.420000  Value     44.220000
+Value     33.810000  Value     44.390000
+Value     34.330000  Value     44.460000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         147.438080151         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                    Variable:  TSLA
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                      221.918300    Sum Observations        22191.830000
+Std Deviation              42.082335    Variance                 1770.922931
+Skewness                   -0.093988    Kurtosis                   -1.482086
+Uncorrected SS        5100094.557700    Corrected SS           175321.370211
+Coeff Variation            18.962986    Std Error Mean              4.208234
+
+           Basic Statistical Measures           
+
+Location              Variability               
+--------  ----------  -------------  -----------
+Mean      221.918300  Std Deviation    42.082335
+Median    230.660000  Variance       1770.922931
+Mode               .  Range           139.590000
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min      153.750000
+1%          156.970000
+5%          160.935000
+10%         164.695000
+25% Q1      183.605000
+50% Median  230.660000
+75% Q3      259.390000
+90%         273.210000
+95%         280.600000
+99%         292.300000
+100% Max    293.340000
+
+           Extreme Observations           
+
+Lowest                Highest             
+--------  ----------  --------  ----------
+Value     153.750000  Value     281.380000
+Value     160.190000  Value     282.480000
+Value     160.310000  Value     290.380000
+Value     160.610000  Value     291.260000
+Value     160.670000  Value     293.340000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         52.734312206         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  TJX
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                       81.680700    Sum Observations         8168.070000
+Std Deviation               4.010257    Variance                   16.082158
+Skewness                    0.414508    Kurtosis                   -1.256318
+Uncorrected SS         668765.808900    Corrected SS             1592.133651
+Coeff Variation             4.909675    Std Error Mean              0.401026
+
+         Basic Statistical Measures          
+
+Location             Variability             
+--------  ---------  -------------  ---------
+Mean      81.680700  Std Deviation   4.010257
+Median    80.210000  Variance       16.082158
+Mode      77.760000  Range          14.070000
+
+     NOTE: The mode displayed is the smallest of 5 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min      75.940000
+1%          76.295000
+5%          76.805000
+10%         77.195000
+25% Q1      78.230000
+50% Median  80.210000
+75% Q3      85.515000
+90%         86.720000
+95%         88.705000
+99%         89.815000
+100% Max    90.010000
+
+          Extreme Observations          
+
+Lowest               Highest            
+--------  ---------  --------  ---------
+Value     75.940000  Value     89.100000
+Value     76.650000  Value     89.310000
+Value     76.700000  Value     89.520000
+Value     76.760000  Value     89.620000
+Value     76.790000  Value     90.010000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         203.679484659         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                    Variable:  TSCO
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                      225.285800    Sum Observations        22528.580000
+Std Deviation              11.232076    Variance                  126.159528
+Skewness                    0.616187    Kurtosis                   -0.831400
+Uncorrected SS        5087858.961400    Corrected SS            12489.793236
+Coeff Variation             4.985701    Std Error Mean              1.123208
+
+          Basic Statistical Measures           
+
+Location              Variability              
+--------  ----------  -------------  ----------
+Mean      225.285800  Std Deviation   11.232076
+Median    221.910000  Variance       126.159528
+Mode      216.860000  Range           43.650000
+
+     NOTE: The mode displayed is the smallest of 2 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min      206.320000
+1%          206.935000
+5%          211.175000
+10%         213.290000
+25% Q1      217.115000
+50% Median  221.910000
+75% Q3      236.440000
+90%         241.885000
+95%         244.790000
+99%         249.485000
+100% Max    249.970000
+
+           Extreme Observations           
+
+Lowest                Highest             
+--------  ----------  --------  ----------
+Value     206.320000  Value     245.210000
+Value     207.550000  Value     246.820000
+Value     209.590000  Value     248.590000
+Value     210.810000  Value     249.000000
+Value     211.160000  Value     249.970000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         200.573610118         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                    Variable:  ULTA
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                      476.796600    Sum Observations        47679.660000
+Std Deviation              41.371162    Variance                 1711.573067
+Skewness                    0.317371    Kurtosis                   -1.094099
+Uncorrected SS        22902945.510800    Corrected SS           169445.733644
+Coeff Variation             8.676900    Std Error Mean              4.137116
+
+           Basic Statistical Measures           
+
+Location              Variability               
+--------  ----------  -------------  -----------
+Mean      476.796600  Std Deviation    41.371162
+Median    470.575000  Variance       1711.573067
+Mode      447.910000  Range           147.600000
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min      403.830000
+1%          406.830000
+5%          418.215000
+10%         423.180000
+25% Q1      446.020000
+50% Median  470.575000
+75% Q3      514.865000
+90%         541.445000
+95%         546.785000
+99%         551.310000
+100% Max    551.430000
+
+           Extreme Observations           
+
+Lowest                Highest             
+--------  ----------  --------  ----------
+Value     403.830000  Value     547.400000
+Value     409.830000  Value     547.450000
+Value     412.200000  Value     547.770000
+Value     415.550000  Value     551.190000
+Value     417.490000  Value     551.430000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         115.248538814         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                    Variable:  WYNN
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                      105.824300    Sum Observations        10582.430000
+Std Deviation               5.157414    Variance                   26.598916
+Skewness                   -0.475407    Kurtosis                   -0.288156
+Uncorrected SS        1122511.539700    Corrected SS             2633.292651
+Coeff Variation             4.873563    Std Error Mean              0.515741
+
+          Basic Statistical Measures          
+
+Location              Variability             
+--------  ----------  -------------  ---------
+Mean      105.824300  Std Deviation   5.157414
+Median    106.180000  Variance       26.598916
+Mode       95.490000  Range          21.720000
+
+     NOTE: The mode displayed is the smallest of 4 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min       93.880000
+1%           94.040000
+5%           95.265000
+10%          99.105000
+25% Q1      102.895000
+50% Median  106.180000
+75% Q3      109.480000
+90%         112.110000
+95%         113.510000
+99%         115.040000
+100% Max    115.600000
+
+          Extreme Observations           
+
+Lowest               Highest             
+--------  ---------  --------  ----------
+Value     93.880000  Value     113.690000
+Value     94.200000  Value     114.110000
+Value     94.790000  Value     114.280000
+Value     94.810000  Value     114.480000
+Value     95.040000  Value     115.600000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         205.18869915         0
+Sign                       50         0
+Signed Rank              5050         0
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  YUM
+
+                                                        Moments
+
+N                                100    Sum Weights                      100
+Mean                      135.123200    Sum Observations        13512.320000
+Std Deviation               3.050366    Variance                    9.304735
+Skewness                   -0.295186    Kurtosis                   -0.106061
+Uncorrected SS        1826749.086600    Corrected SS              921.168776
+Coeff Variation             2.257471    Std Error Mean              0.305037
+
+          Basic Statistical Measures          
+
+Location              Variability             
+--------  ----------  -------------  ---------
+Mean      135.123200  Std Deviation   3.050366
+Median    135.580000  Variance        9.304735
+Mode      134.170000  Range          15.110000
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min      127.790000
+1%          128.240000
+5%          129.425000
+10%         130.565000
+25% Q1      133.245000
+50% Median  135.580000
+75% Q3      137.325000
+90%         138.480000
+95%         139.050000
+99%         142.565000
+100% Max    142.900000
+
+           Extreme Observations           
+
+Lowest                Highest             
+--------  ----------  --------  ----------
+Value     127.790000  Value     139.200000
+Value     128.690000  Value     139.800000
+Value     128.800000  Value     140.580000
+Value     129.120000  Value     142.230000
+Value     129.400000  Value     142.900000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         442.973671813         0
+Sign                       50         0
+Signed Rank              5050         0
+
+                                                  The MEANS Procedure
+
+ Variable         N             Mean         Std Dev          Minimum          Maximum
+ -------------------------------------------------------------------------------------
+ ABNB           100      125.0966500      12.9763843      104.4200000      153.3300000
+ AMZN           100      121.3867000      12.5245051       97.8300000      142.2200000
+ APTV           100      101.3220000       6.3669521       88.0800000      112.4000000
+ AZO            100     2526.2256940     107.6138798     2306.6499000     2733.6499000
+ BBWI           100       36.6595000       2.1123764       31.8300000       42.2300000
+ BBY            100       76.9479000       4.2767382       69.1500000       84.9500000
+ BKNG           100     2767.3983970     197.7674805     2508.7700000     3243.0100000
+ BWA            100       42.0441490       2.2614133       37.6761000       46.9500000
+ CCL            100       13.9309000       3.5856541        8.7600000       19.3000000
+ CMG            100     1977.7006090     130.7007243     1685.2100000     2153.2000000
+ CZR            100       48.8307500       5.2088310       41.0100000       59.3800000
+ DECK           100      506.9693000      36.1117840      440.3300000      565.5500000
+ DHI            100      114.8027000       9.3662929       95.6400000      131.0000000
+ DPZ            100      341.4536000      36.8628131      289.8500000      402.5800000
+ DRI            100      159.9879000       6.8250124      146.4600000      172.1800000
+ EBAY           100       44.6567000       1.4928260       42.5400000       49.0300000
+ ETSY           100       91.2590500       8.7823024       71.6200000      109.6400000
+ EXPE           100      103.8242000      10.0405839       89.1700000      122.5300000
+ F              100       12.9496000       1.1847021       11.2500000       15.3500000
+ GM             100       35.5410000       2.5359988       31.5400000       40.5000000
+ GPC            100      161.9772000       6.2060713      148.9300000      173.7300000
+ GRMN           100      103.3024000       3.0996579       95.2000000      107.7300000
+ HAS            100       60.7468000       4.4477382       51.0400000       67.7100000
+ HD             100      305.8930000      15.2959671      282.3300000      333.8400000
+ HLT            100      145.7067000       5.1795811      136.0800000      155.4900000
+ KMX            100       76.9699000       6.6268233       62.4400000       86.2100000
+ LEN            100      117.2622000       7.9187689      102.0600000      133.2400000
+ LKQ            100       55.5378000       1.8531832       51.3900000       59.0100000
+ LOW            100      215.2121000      11.0654942      198.5700000      235.0900000
+ LULU           100      372.8733000      12.1787664      328.3500000      390.5100000
+ LVS            100       58.3397000       2.5751616       53.0000000       64.8600000
+ MAR            100      182.6038000      13.3619559      161.4700000      208.5100000
+ MCD            100      290.5893000       4.7755197      280.0400000      298.4100000
+ MGM            100       44.1321000       2.8358902       39.1200000       50.9000000
+ MHK            100      100.9833000       5.7658118       92.0400000      116.1100000
+ NCLH           100       16.9659000       3.1921685       12.4600000       22.5200000
+ NKE            100      113.2393000       8.0738206       97.6300000      127.9200000
+ NVR            100     5981.0424110     273.1105608     5468.0801000     6466.0000000
+ ORLY           100      927.0174000      26.6105445      858.3500000      969.2300000
+ PHM            100       72.8564000       8.0790704       57.8400000       86.0100000
+ POOL           100      353.2326000      19.3042551      313.0200000      388.3700000
+ RCL            100       87.5818000      16.0940008       59.5600000      109.6800000
+ RL             100      119.0298000       6.9557961      106.0900000      132.2100000
+ ROST           100      108.2278000       4.6958517      100.9000000      121.8800000
+ SBUX           100      102.3458000       4.3509268       94.8300000      114.5600000
+ TJX            100       81.6807000       4.0102566       75.9400000       90.0100000
+ TPR            100       41.1235000       2.7892048       33.0900000       44.4600000
+ TSCO           100      225.2858000      11.2320758      206.3200000      249.9700000
+ TSLA           100      221.9183000      42.0823351      153.7500000      293.3400000
+ ULTA           100      476.7966000      41.3711623      403.8300000      551.4300000
+ WYNN           100      105.8243000       5.1574137       93.8800000      115.6000000
+ YUM            100      135.1232000       3.0503664      127.7900000      142.9000000
+ -------------------------------------------------------------------------------------
+

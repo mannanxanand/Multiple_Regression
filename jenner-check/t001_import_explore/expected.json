@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-07-24T02:50:13+00:00",
+  "_captured_run_id": "r_c68db1ece83349fba1a6385852d1ba0d",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote WORK.STOCKS (100 rows, 53 columns).",
+    "NOTE: PROC CONTENTS completed: 100 observations, 53 variables",
+    "NOTE: PROC UNIVARIATE",
+    "NOTE: PROC MEANS statement used."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

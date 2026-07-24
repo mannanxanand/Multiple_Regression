@@ -1,0 +1,128 @@
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                                Dependent Variable: ABNB                                                
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   5     15236.90678   3047.38136    199.85    <.0001
+Error                  94      1433.36168     15.24853                    
+Corrected Total        99     16670.26845                                 
+
+Root MSE           3.90494    R-Square            0.9140
+Dependent Mean     125.09665    Adj R-Sq            0.9094
+Coeff Var          3.12154
+
+                                       Parameter Estimates                                       
+
+Variable         DF   Estimate  Standard Error   t Value  Pr > |t|  Tolerance  Variance Inflation
+---------  --------  ---------  --------------  --------  --------  ---------  ------------------
+Intercept         1  -69.15162        22.17634     -3.12    0.0024          .                   .
+EBAY              1    0.20080         0.33625      0.60    0.5518    0.61128             1.63591
+CZR               1    1.73561         0.12362     14.04    <.0001    0.37145             2.69214
+DRI               1   -0.08533         0.12871     -0.66    0.5089    0.19961             5.00989
+SBUX              1    0.80761         0.14459      5.59    <.0001    0.38916             2.56963
+TSLA              1    0.14206         0.02535      5.60    <.0001    0.13536             7.38766
+
+                         The GLM Procedure                         
+                     Dependent Variable: abnb                      
+
+Source          DF  Sum of Squares  Mean Square   F Value    Pr > F
+--------  --------  --------------  -----------  --------  --------
+EBAY             1         0.16095      0.16095      0.01    0.9322
+CZR              1         7.20385      7.20385      0.33    0.5697
+EBAY:CZR         1         1.59307      1.59307      0.07    0.7891
+Error           96      2124.74293     22.13274                    
+
+Root MSE           4.70454    R-Square            0.8725
+Adj R-Sq            0.8686
+
+                   Parameter Estimates                   
+
+Parameter    Estimate  Standard Error   t Value  Pr > |t|
+-----------  --------  --------------  --------  --------
+(Intercept)   6.20189       139.54330      0.04    0.9646
+EBAY          0.26818         3.14486      0.09    0.9322
+CZR           1.48668         2.60587      0.57    0.5697
+EBAY:czr      0.01572         0.05859      0.27    0.7891
+
+
+               The PLM Procedure
+
+  Restored Item Store: GLMMODEL
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                                Dependent Variable: ABNB                                                
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                  14     15625.89017   1116.13501     90.84    <.0001
+Error                  85      1044.37828     12.28680                    
+Corrected Total        99     16670.26845                                 
+
+Root MSE           3.50525    R-Square            0.9374
+Dependent Mean     125.09665    Adj R-Sq            0.9270
+Coeff Var          2.80204
+
+                                       Parameter Estimates                                        
+
+Variable         DF    Estimate  Standard Error   t Value  Pr > |t|  Tolerance  Variance Inflation
+---------  --------  ----------  --------------  --------  --------  ---------  ------------------
+Intercept         1  1572.10310      1057.56259      1.49    0.1408          .                   .
+EBAY              1   -10.56102        19.23990     -0.55    0.5845    0.00015          6646.91731
+CZR               1   -12.91240         5.54873     -2.33    0.0223    0.00015          6730.76565
+DRI               1    -7.39650         7.04984     -1.05    0.2971    0.00005         18653.58429
+SBUX              1    -8.29291         6.92107     -1.20    0.2342    0.00014          7306.44328
+TSLA              1     0.41932         1.08916      0.38    0.7012    0.00006         16927.07715
+ebay_czr          1     0.13143         0.12391      1.06    0.2918    0.00011          9194.97901
+ebay_dri          1     0.04454         0.12773      0.35    0.7281    0.00004         28470.19493
+ebay_sbux         1     0.04833         0.10711      0.45    0.6530    0.00016          6118.32505
+ebay_tsla         1    -0.03903         0.02037     -1.92    0.0587    0.00007         14019.81562
+czr_sbux          1     0.07002         0.05607      1.25    0.2152    0.00017          6057.61301
+czr_tsla          1     0.00745         0.00538      1.39    0.1696    0.00047          2145.85121
+dri_sbux          1     0.02945         0.03915      0.75    0.4539    0.00022          4547.96561
+dri_tsla          1     0.01108         0.00436      2.54    0.0129    0.00010          9982.08332
+sbux_tsla         1    -0.00681         0.00680     -1.00    0.3201    0.00019          5358.71419
+
+     Test 1: F Value = 3.5176, Num DF = 9, Den DF = 85      
+
+Source                   DF  Mean Square   F Value    Pr > F
+-----------------  --------  -----------  --------  --------
+Linear Hypothesis         9     43.22038      3.52    0.0010
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                                Dependent Variable: ABNB                                                
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                  10     15524.55974   1552.45597    120.60    <.0001
+Error                  89      1145.70871     12.87313                    
+Corrected Total        99     16670.26845                                 
+
+Root MSE           3.58791    R-Square            0.9313
+Dependent Mean     125.09665    Adj R-Sq            0.9236
+Coeff Var          2.86811
+
+                                       Parameter Estimates                                       
+
+Variable         DF   Estimate  Standard Error   t Value  Pr > |t|  Tolerance  Variance Inflation
+---------  --------  ---------  --------------  --------  --------  ---------  ------------------
+Intercept         1  105.22882       516.27063      0.20    0.8390          .                   .
+EBAY              1   10.89994        14.52102      0.75    0.4549    0.00028          3613.79632
+CZR               1   -4.35253         2.21746     -1.96    0.0528    0.00097          1025.99152
+DRI               1   -0.85352         4.80519     -0.18    0.8594    0.00012          8271.39528
+SBUX              1   -1.67805         3.31940     -0.51    0.6144    0.00062          1604.10662
+TSLA              1   -0.32760         0.22078     -1.48    0.1414    0.00151           663.86671
+ebay2             1   -0.12098         0.15939     -0.76    0.4498    0.00028          3622.03857
+czr2              1    0.06168         0.02200      2.80    0.0062    0.00100          1003.56498
+dri2              1    0.00209         0.01524      0.14    0.8914    0.00012          8427.44498
+sbux2             1    0.01059         0.01599      0.66    0.5094    0.00062          1611.99543
+tsla2             1    0.00108         0.00047      2.31    0.0231    0.00174           573.47120
+
+     Test 1: F Value = 4.4690, Num DF = 5, Den DF = 89      
+
+Source                   DF  Mean Square   F Value    Pr > F
+-----------------  --------  -----------  --------  --------
+Linear Hypothesis         5     57.53059      4.47    0.0011
+

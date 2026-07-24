@@ -1,0 +1,180 @@
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                                Dependent Variable: ABNB                                                
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   9     15659.18715   1739.90968    154.88    <.0001
+Error                  90      1011.08130     11.23424                    
+Corrected Total        99     16670.26845                                 
+
+Root MSE           3.35175    R-Square            0.9393
+Dependent Mean     125.09665    Adj R-Sq            0.9333
+Coeff Var          2.67933
+
+                        Parameter Estimates                        
+
+Variable         DF    Estimate  Standard Error   t Value  Pr > |t|
+---------  --------  ----------  --------------  --------  --------
+Intercept         1  -112.95033        22.74418     -4.97    <.0001
+AMZN              1    -0.27745         0.10987     -2.53    0.0133
+EBAY              1    -0.11778         0.34262     -0.34    0.7318
+CZR               1     1.13170         0.17030      6.65    <.0001
+DECK              1     0.07648         0.03676      2.08    0.0403
+DRI               1     0.15717         0.15898      0.99    0.3255
+LOW               1     0.37337         0.10031      3.72    0.0003
+RL                1     0.04767         0.14118      0.34    0.7364
+SBUX              1     0.52736         0.16845      3.13    0.0024
+TSLA              1     0.08023         0.03106      2.58    0.0114
+
+                    Selection Method: R-Square Selection                    
+
+Number in Model  R-Square  Adj R-Sq  Variables in Model                     
+---------------  --------  --------  ---------------------------------------
+              9    0.9393    0.9333  amzn ebay czr deck dri low rl sbux tsla
+              8    0.9393    0.9339  amzn ebay czr deck dri low sbux tsla   
+              7    0.9391    0.9344  amzn czr deck dri low sbux tsla        
+              6    0.9384    0.9344  amzn czr deck low sbux tsla            
+              5    0.9354    0.9320  amzn czr low sbux tsla                 
+              4    0.9325    0.9297  czr low sbux tsla                      
+              3    0.9194    0.9169  czr low sbux                           
+              2    0.8968    0.8947  czr low                                
+              1    0.8587    0.8572  czr                                    
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                                Dependent Variable: ABNB                                                
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   7     15654.32383   2236.33198    202.51    <.0001
+Error                  92      1015.94462     11.04288                    
+Corrected Total        99     16670.26845                                 
+
+Root MSE           3.32308    R-Square            0.9391
+Dependent Mean     125.09665    Adj R-Sq            0.9344
+Coeff Var          2.65641
+
+                        Parameter Estimates                        
+
+Variable         DF    Estimate  Standard Error   t Value  Pr > |t|
+---------  --------  ----------  --------------  --------  --------
+Intercept         1  -113.10148        22.46159     -5.04    <.0001
+AMZN              1    -0.27757         0.09288     -2.99    0.0036
+CZR               1     1.15485         0.15655      7.38    <.0001
+DECK              1     0.07708         0.03391      2.27    0.0254
+DRI               1     0.14374         0.14042      1.02    0.3087
+LOW               1     0.36914         0.09908      3.73    0.0003
+SBUX              1     0.53654         0.14054      3.82    0.0002
+TSLA              1     0.08593         0.02362      3.64    0.0005
+
+                 Selection Method: Adjusted R-Sq Selection                  
+
+Number in Model  R-Square  Adj R-Sq  Variables in Model                     
+---------------  --------  --------  ---------------------------------------
+              7    0.9391    0.9344  amzn czr deck dri low sbux tsla        
+              6    0.9384    0.9344  amzn czr deck low sbux tsla            
+              8    0.9393    0.9339  amzn ebay czr deck dri low sbux tsla   
+              9    0.9393    0.9333  amzn ebay czr deck dri low rl sbux tsla
+              5    0.9354    0.9320  amzn czr low sbux tsla                 
+              4    0.9325    0.9297  czr low sbux tsla                      
+              3    0.9194    0.9169  czr low sbux                           
+              2    0.8968    0.8947  czr low                                
+              1    0.8587    0.8572  czr                                    
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                                Dependent Variable: ABNB                                                
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   9     15659.18715   1739.90968    154.88    <.0001
+Error                  90      1011.08130     11.23424                    
+Corrected Total        99     16670.26845                                 
+
+Root MSE           3.35175    R-Square            0.9393
+Dependent Mean     125.09665    Adj R-Sq            0.9333
+Coeff Var          2.67933
+
+                        Parameter Estimates                        
+
+Variable         DF    Estimate  Standard Error   t Value  Pr > |t|
+---------  --------  ----------  --------------  --------  --------
+Intercept         1  -112.95033        22.74418     -4.97    <.0001
+AMZN              1    -0.27745         0.10987     -2.53    0.0133
+EBAY              1    -0.11778         0.34262     -0.34    0.7318
+CZR               1     1.13170         0.17030      6.65    <.0001
+DECK              1     0.07648         0.03676      2.08    0.0403
+DRI               1     0.15717         0.15898      0.99    0.3255
+LOW               1     0.37337         0.10031      3.72    0.0003
+RL                1     0.04767         0.14118      0.34    0.7364
+SBUX              1     0.52736         0.16845      3.13    0.0024
+TSLA              1     0.08023         0.03106      2.58    0.0114
+
+                            Selection Method: Cp Selection                            
+
+Number in Model  R-Square  Adj R-Sq        Cp  Variables in Model                     
+---------------  --------  --------  --------  ---------------------------------------
+              9    0.9393    0.9333   10.0000  amzn ebay czr deck dri low rl sbux tsla
+              8    0.9393    0.9339    8.1140  amzn ebay czr deck dri low sbux tsla   
+              7    0.9391    0.9344    6.4329  amzn czr deck dri low sbux tsla        
+              6    0.9384    0.9344    5.4629  amzn czr deck low sbux tsla            
+              5    0.9354    0.9320    7.8592  amzn czr low sbux tsla                 
+              4    0.9325    0.9297   10.1166  czr low sbux tsla                      
+              3    0.9194    0.9169   27.5868  czr low sbux                           
+              2    0.8968    0.8947   59.1517  czr low                                
+              1    0.8587    0.8572  113.7036  czr                                    
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                                Dependent Variable: ABNB                                                
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   8     15587.54645   1948.44331    163.76    <.0001
+Error                  91      1082.72200     11.89804                    
+Corrected Total        99     16670.26845                                 
+
+Root MSE           3.44935    R-Square            0.9351
+Dependent Mean     125.09665    Adj R-Sq            0.9293
+Coeff Var          2.75735
+
+                                       Parameter Estimates                                        
+
+Variable         DF    Estimate  Standard Error   t Value  Pr > |t|  Tolerance  Variance Inflation
+---------  --------  ----------  --------------  --------  --------  ---------  ------------------
+Intercept         1  -118.51808        23.29625     -5.09    <.0001          .                   .
+EBAY              1     0.26690         0.31583      0.85    0.4003    0.54064             1.84964
+CZR               1     1.08993         0.17444      6.25    <.0001    0.14558             6.86925
+DECK              1     0.00708         0.02513      0.28    0.7788    0.14597             6.85061
+DRI               1    -0.10006         0.12561     -0.80    0.4278    0.16352             6.11546
+LOW               1     0.42466         0.10109      4.20    <.0001    0.09604            10.41232
+RL                1     0.20785         0.12980      1.60    0.1128    0.14743             6.78290
+SBUX              1     0.59327         0.17126      3.46    0.0008    0.21646             4.61985
+TSLA              1     0.06328         0.03121      2.03    0.0455    0.06967            14.35251
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                                Dependent Variable: ABNB                                                
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   5     15236.90678   3047.38136    199.85    <.0001
+Error                  94      1433.36168     15.24853                    
+Corrected Total        99     16670.26845                                 
+
+Root MSE           3.90494    R-Square            0.9140
+Dependent Mean     125.09665    Adj R-Sq            0.9094
+Coeff Var          3.12154
+
+                                       Parameter Estimates                                       
+
+Variable         DF   Estimate  Standard Error   t Value  Pr > |t|  Tolerance  Variance Inflation
+---------  --------  ---------  --------------  --------  --------  ---------  ------------------
+Intercept         1  -69.15162        22.17634     -3.12    0.0024          .                   .
+EBAY              1    0.20080         0.33625      0.60    0.5518    0.61128             1.63591
+CZR               1    1.73561         0.12362     14.04    <.0001    0.37145             2.69214
+DRI               1   -0.08533         0.12871     -0.66    0.5089    0.19961             5.00989
+SBUX              1    0.80761         0.14459      5.59    <.0001    0.38916             2.56963
+TSLA              1    0.14206         0.02535      5.60    <.0001    0.13536             7.38766
+
